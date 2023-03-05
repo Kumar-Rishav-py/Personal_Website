@@ -40,20 +40,20 @@ const Me = () => {
               <p>
               I am an accomplished undergraduate student in Electronic and Communication Engineering at IIIT Nagpur. He has a passion for programming, with expertise in web and Android development and a track record of success in coding competitions.
               </p>
-              <ul className={styles["gg"]}>
-                <li>
+              <p className={styles["gg"]}>
+                <p>
                   <strong>FULLNAME:</strong>
                   <h3>KUMAR RISHAV</h3>
-                </li>
-                <li>
+                </p>
+                <p>
                   <strong>COLLEGE:</strong>
                   <h3>Indian Institute of Information Technology, Nagpur</h3>
-                </li>
-                <li>
+                </p>
+                <p>
                   <strong>E-MAIL:</strong>
                   <h3>krishavbe@gmail.com</h3>
-                </li>
-              </ul>
+                </p>
+              </p>
             </div>
             <div>
               <h2>SKILLS</h2>
@@ -68,8 +68,8 @@ const Me = () => {
           </div>
         </div>
         <div className={styles["button"]}>
-          <a href="https://www.linkedin.com/in/kumar-rishav-507bab233/"> <button type="submit">Open to Work</button></a>
-           <a href="http://"> <button type="submit">Download CV</button></a>
+          <button type="submit">Open to Work</button>
+          <button type="submit">Download CV</button>
            
         </div>
 
