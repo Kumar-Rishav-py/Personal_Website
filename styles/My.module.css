@@ -179,6 +179,13 @@
    .button button:hover:before {
     transform: translateX(15em);
    }
+.gg{
+    line-height: 190%;
+}
+   .gg strong{
+    padding-top: 0.2rem;
+    color: #d8d8d8;
+   }
 
 
 

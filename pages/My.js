@@ -31,21 +31,14 @@ const Me = () => {
               />
             </div>
             <div className={styles["content"]}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              dolorem in at, quibusdam voluptate quo cumque id aliquam dicta!
-              Nostrum iure beatae veritatis eligendi officiis corporis tenetur
-              laudantium asperiores, magnam exercitationem itaque, maiores
-              aperiam voluptas deserunt doloribus provident, laborum
-              praesentium?.
+            Hi, I am Kumar Rishav, a passionate and skilled student of Electronic and Communication Engineering. With a strong background in programming languages such as C++, C, Python, and web development technologies like HTML5, CSS3, ReactJS, and NextJS, I have also excelled in various extracurricular activities and competitions.
             </div>
           </div>
           <div className={styles["Profile-skills"]}>
             <div>
               <h2>PROFILE</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-                ab aut illo impedit architecto iusto tenetur, rem quis totam
-                sequi.
+              I am an accomplished undergraduate student in Electronic and Communication Engineering at IIIT Nagpur. He has a passion for programming, with expertise in web and Android development and a track record of success in coding competitions.
               </p>
               <ul className={styles["gg"]}>
                 <li>
@@ -66,17 +59,18 @@ const Me = () => {
               <h2>SKILLS</h2>
               <p>
                 I'm a cell-like independent teamworker, strong in research and
-                coding. My areas of expertise are computer science,
-                bioinformatics, and genetics. Below are highlights of my
+                coding. My areas of expertise are web development and competitive programing. Below are highlights of my
                 technical skills:
+                <p>Primary: C++, C, Python, HTML5, CSS3, ReactJS, NextJS, TypeScript, MongoDB.</p>
               </p>
               
             </div>
           </div>
         </div>
         <div className={styles["button"]}>
-            <button type="submit">Open to Work</button>
-            <button type="submit">Download CV</button>
+          <a href="https://www.linkedin.com/in/kumar-rishav-507bab233/"> <button type="submit">Open to Work</button></a>
+           <a href="http://"> <button type="submit">Download CV</button></a>
+           
         </div>
 
       </div>
