@@ -4,11 +4,11 @@
 
 ### 1. Clone the repo
 
-​	Visit the TF2022 project repo link given to you along with this guide. Clone this repo into your local system. Click the button shown in the image and then go to the desired repository where you want to locally setup this project. Use the given command to clone the repo.
+​	Visit the Personal_Website project repo link given to you along with this guide. Clone this repo into your local system. Click the button shown in the image and then go to the desired repository where you want to locally setup this project. Use the given command to clone the repo.
 
 ![](./images/setup-guide/2.jpeg)
 ```
-git clone https://github.com/bhavesh-chaudhari/TF2022
+git clone https://github.com/Kumar-Rishav-py/Personal_Website
 ```
 
 ### 2. Install all the required dependency
@@ -24,7 +24,7 @@ npm install
 ```
 npm run dev
 ```
-To contribute to the project, you can checkout the CONTRIBUTING.md file (https://github.com/bhavesh-chaudhari/TF2022/blob/main/CONTRIBUTING.md) on the TF2022 Project Repo. The next set of steps are just an elaborated version of the same. 
+To contribute to the project, you can checkout the CONTRIBUTING.md file (https://github.com/Kumar-Rishav-py/Personal_Website/blob/main/CONTRIBUTING.md) on the Personal Website Project Repo. The next set of steps are just an elaborated version of the same. 
 
 ### 4. Create your feature branch
 
