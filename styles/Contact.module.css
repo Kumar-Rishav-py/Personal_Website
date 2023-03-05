@@ -1,0 +1,130 @@
+.Main{
+    padding: 0;
+    margin: 0;
+}
+.set{
+    background-image: url("..//public/BG2.jpg");
+    background-repeat: no-repeat;
+    background-color: black;  
+    height: 100vh;
+    width: 100% ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+.Section-c{
+    color: aliceblue;
+   
+}
+.Endpart{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+.Endpart .part1 {
+
+    flex: 1;
+}
+.Endpart h3 {
+    color: skyblue
+}
+.Endpart a{
+    text-decoration: none;
+    color: skyblue;
+
+}
+ .Endpart .icon{
+        margin-top: 6rem;
+        font-size: 2.5rem;
+        color: #1BFD9C;
+    }
+    .Section-c h2{
+        color: rgb(238, 103, 53);
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .Section-c h1{
+        color: white;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Endpart p{
+        font-size: 2rem;
+        color: #1BFD9C;
+    }
+   
+@media (max-width:768px){
+    .Endpart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .Endpart .icon{
+        margin-top: 6rem;
+        font-size: 2.5rem;
+        color: olive
+    }
+    .Section-c h2{
+        color: rgb(238, 103, 53);
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .Section-c h1{
+        color: yellow;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Endpart p{
+        font-size: 2rem;
+        color: palegreen;
+    }
+    
+}
+
+.container{
+
+}
+.title-text{
+    text-align: center;
+    background-color: crimson;
+    color: aliceblue;
+    font-weight: 400;
+    
+}
+.skill-box{
+    width: 100%;
+    margin: 25px 0;
+
+}
+.skill-box .title{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.skill-box .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: crimson;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
