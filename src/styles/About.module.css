@@ -78,28 +78,7 @@
 
 }
 
-/* 
-@media (max-width:1200px) {
-    .section-A video{
-        /* position: "absolute",
-          width : "100%",
-          left: "50%",
-          top: "50%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate( -50%, -50%)",
-          zIndex: "-1" */
-          /* position: absolute;
-          width: 100%;
-          left: 50%;
-          top: 50%;
-          height: 100%;
-          object-fit: cover;
-          transform: translate( -50%, -50%);
-          z-index: 999;
-    }
 
-     */
 
 .content{
     position: absolute;
@@ -152,24 +131,7 @@
     
     }
 }
-/* 
-.fade-enter {
-    opacity: 0;
-}
 
-.fade-enter-active {
-    opacity: 1;
-    transition: opacity 3s ease-in;
-}
-
-.fade-exit {
-    opacity: 1;
-}
-
-.fade-exit-active {
-    opacity: 0;
-    transition: opacity 1300ms ease-in;
-} */
 
 .Insta {
     color: yellowgreen; /* white color */

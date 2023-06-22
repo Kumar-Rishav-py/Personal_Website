@@ -3,7 +3,7 @@
     margin: 0;
 }
 .set{
-    background-image: url("..//public/BG2.jpg");
+    background-image: url("/BG2.jpg");
     background-repeat: no-repeat;
     background-color: black;  
     height: 100vh;
@@ -88,9 +88,7 @@
     
 }
 
-.container{
 
-}
 .title-text{
     text-align: center;
     background-color: crimson;

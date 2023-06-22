@@ -23,37 +23,16 @@ const About = () => {
     <section className={styles["main"]}>
       <div className={styles["set"]}>
         <div className={styles["section-A"]}>
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            // style={{
-            //   position: "absolute",
-            //   width: "100%",
-            //   left: "50%",
-            //   top: "50%",
-            //   height: "100%",
-            //   objectFit: "cover",
-            //   transform: "translate( -50%, -50%)",
-            //   zIndex: "-1",
-            // }}
-          >
+          <video autoPlay loop muted playsInline>
             <source src="ppp.mp4" type="video/mp4" />
           </video>
 
           <div className={styles["content"]}>
-          <h3>Hello, it&rsquo;s me</h3>
-            <CSSTransition
-                in={true}
-                timeout={1000}
-                classNames="name"
-                
-            >
-                <h1>{name}</h1>
+            <h3>Hello, it&rsquo;s me</h3>
+            <CSSTransition in={true} timeout={1000} classNames="name">
+              <h1>{name}</h1>
             </CSSTransition>
-            
-            
+
             <h4>I built this thing for web</h4>
           </div>
           <div className={styles["social"]}>
