@@ -25,19 +25,22 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.2",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint": "^8.5.0",
+    "eslint-config-next": "12.2.4",
+    "prettier": "^2.5.1",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
-    "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4",
     "webpack": "^5.75.0"
   },
-  
   "eslintConfig": {
     "extends": [
       "next",
+      "next/core-web-vitals",
       "prettier"
-    ]
+    ],
+    "rules": {
+      "react/no-unescaped-entities": "off"
+    }
   }
 }
