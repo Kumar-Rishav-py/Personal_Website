@@ -15,7 +15,7 @@ const About = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setName(name === "Kumar Rishav" ? "Web Developer" : "Kumar Rishav");
-    }, 1000);
+    }, 2000);
     return () => clearInterval(intervalId);
   }, [name]);
 
