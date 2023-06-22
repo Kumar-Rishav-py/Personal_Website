@@ -10,7 +10,7 @@ const Contact = () => {
       <div className={styles["set"]}>
         <div className={styles["Section-c"]}>
           <h2>Contact</h2>
-          <h1>I'd Love To Connect With You.</h1>
+          <h1>I'd Love To Connect With You</h1>
           
             <div className={styles["Endpart"]}>
               <div className={styles["part1"]}>

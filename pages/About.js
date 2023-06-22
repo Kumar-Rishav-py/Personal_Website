@@ -43,7 +43,7 @@ const About = () => {
           </video>
 
           <div className={styles["content"]}>
-            <h3>Hello, it's me</h3>
+          <h3>Hello, it&rsquo;s me</h3>
             <CSSTransition
                 in={true}
                 timeout={1000}

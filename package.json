@@ -33,6 +33,7 @@
     "eslint-config-next": "12.2.4",
     "webpack": "^5.75.0"
   },
+  
   "eslintConfig": {
     "extends": [
       "next",
