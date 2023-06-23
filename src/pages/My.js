@@ -5,7 +5,7 @@ import Contact from "../pages/Contact";
 
 const Me = () => {
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/file/d/1O-U4wo4vyQ7i_PMosqLYzdIrK3QDHIOD/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1v1PBTVJ1LcUyMufCuIpv1yH0n6xDvLJn/view?usp=sharing", "_blank");
   };
   const handleOpenToWork = () => {
     window.location.href = "mailto:krishavbe@gmail.com";
