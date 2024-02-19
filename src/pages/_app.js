@@ -1,13 +1,17 @@
-import React from 'react'
-import Index from "../pages/index"
-import "../styles/globals.css"
+import React from 'react';
+import Head from 'next/head';
+import '../styles/globals.css'; // Example import for global styles
 
-const _app = () => {
+const MyApp = ({ Component, pageProps }) => {
   return (
-    <div>
-      <Index />
-    </div>
-  )
+    <>
+      <Head>
+        <title>Kumar Rishav</title>
+        <link rel="icon" href="/Dqq.png" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default _app
+export default MyApp;

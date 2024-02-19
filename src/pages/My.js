@@ -5,7 +5,7 @@ import Contact from "../pages/Contact";
 
 const Me = () => {
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/file/d/1v1PBTVJ1LcUyMufCuIpv1yH0n6xDvLJn/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/175mEm8giiRL9WqUJlZqvbUiATiEpPsSj/view?usp=sharing", "_blank");
   };
   const handleOpenToWork = () => {
     window.location.href = "mailto:krishavbe@gmail.com";
@@ -20,7 +20,7 @@ const Me = () => {
           <div className={styles["Image-intro"]}>
             <div>
               <img
-                src="myself.jpeg"
+                src="OP.jpeg"
                 alt="#"
                 style={{
                   height: "10rem",
